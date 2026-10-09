@@ -5,4 +5,4 @@ api-version: 1.20
 folia-supported: true
 authors: [ hhitt, Blakube ]
 description: "The solution for leaderboards where performance and features converge."
-loadbefore: [PlaceholderAPI]
+softdepend: [PlaceholderAPI]

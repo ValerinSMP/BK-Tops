@@ -52,8 +52,13 @@ time-format:
     minutes: "m"
     seconds: "s"
 
+rewards:
+  # Wait before delivering rewards queued while a player was offline. This lets
+  # dependent plugins finish loading the player's data after PlayerJoinEvent.
+  join-delivery-delay-ticks: 60
+
 # Enables extra internal logging for troubleshooting.
 debug: false
 
 # DO NOT TOUCH THIS!
-config-version: 4
+config-version: 5
